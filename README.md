@@ -20,11 +20,11 @@ Simply download the files, make sure the path to the sequence is correct, and ru
 <ul>
 <li> This code leverages the principle that the grayscale and derivative of an arbitrary point on the intima media borders do not change much during the cardiac cycle. This fact is used to modify the external image energy matrix, which sequently the forces driving the snake to move to appropriate locations. 
 Open snake is achieved by simply eliminating the effects of internal energy of the snake and implementing a "derivative constant" boundary conditions to keep the first/last few points of the snake move reasonably.
-<li>The advantages of this code is: 
-(1) The code has been evaluated using large numbers of sequences and shows high robustness to ultrasound sequences with noises, large movements between frames, different IM appearances, and plagues.
-(2) We have a ralatively in-depth understanding of the principles of the snake algorithm.
-<li>The disadvantages of this code is: 
-It was implemented 4 years ago, and the snake parameters required a lot of manual experience. 
+<li>The advantages of this code is: <br>
+(1) The code has been evaluated using large numbers of sequences and shows high robustness to ultrasound sequences with noises, large movements between frames, different IM appearances, and plagues.<br>
+(2) We have a ralatively in-depth understanding of the principles of the snake algorithm when writing the code, so we may be able to share our understandings with others that are interested.<br>
+<li>The disadvantages of this code is: <br>
+It was implemented 4 years ago, and the snake parameters required a lot of manual experience. <br>
 <h3>Other Notes:  </h3>
 <ul>
 <li>Almost all comments in the codes are written in Chinese now. If I have time in the future, the comments might be translated into English. However, to be frank, the translation may be suspended indefinitely since I get more and more work to do. Fortunately, you can find someone who knows Chinese almost everywhere around the world. :D<br>
