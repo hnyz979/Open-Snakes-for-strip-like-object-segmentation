@@ -23,7 +23,8 @@ Open snake is achieved by simply eliminating the effects of internal energy of t
 <li>The advantages of this code is: <br>
 The code has been evaluated using large numbers of sequences and shows high robustness to ultrasound sequences with noises, large movements between frames, different IM appearances, and plagues.<br>
 <li>The disadvantages of this code is: <br>
-It was implemented 4 years ago, and the snake parameters required a lot of manual experience. <br>
+The code was implemented 4 years ago, and the snake parameters required a lot of manual experience. <br>
+</ul>
 <h3>Other Notes:  </h3>
 <ul>
 <li>Almost all comments in the codes are written in Chinese now. If I have time in the future, the comments might be translated into English. However, to be frank, the translation may be suspended indefinitely since I get more and more work to do. Fortunately, you can find someone who knows Chinese almost everywhere around the world. :D<br>
