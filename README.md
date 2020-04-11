@@ -22,14 +22,14 @@ Simply download the files, make sure the path to the sequence is correct, and ru
 <li>To make the codes applicable to sequences of more morphologies and dynamics, I have edited the codes after the paper is published. Thus, you may find some details in the codes that are different from the paper. However, the idea is the same, i.e, the external energy matrix of the snake is modified based on the grayscale and derivatives.<br>
 <li>A MATLAB program for automatically obtaining the segmentation of the first frame will be made on-line soon, which can replace the manual segmented IM borders for the first frame.
 <li>All questions and debuggings are welcome! If you find the code useful, please kindly cite my paper (BibTeX citations are as follows).<br>
-	@article{zhao2017robust,
-	  title={Robust segmentation of intima--media borders with different morphologies and dynamics during the cardiac cycle},
-	  author={Zhao, Shen and Gao, Zhifan and Zhang, Heye and Xie, Yaoqin and Luo, Jianwen and Ghista, Dhanjoo and Wei, Zhanghong and Bi, Xiaojun and Xiong, Huahua and Xu, Chenchu and others},
-	  journal={IEEE journal of biomedical and health informatics},
-	  volume={22},
-	  number={5},
-	  pages={1571--1582},
-	  year={2017},
-	  publisher={IEEE}
-	}
+	@article{zhao2017robust,<br>
+	  title={Robust segmentation of intima--media borders with different morphologies and dynamics during the cardiac cycle},<br>
+	  author={Zhao, Shen and Gao, Zhifan and Zhang, Heye and Xie, Yaoqin and Luo, Jianwen and Ghista, Dhanjoo and Wei, Zhanghong and Bi, Xiaojun and Xiong, Huahua and Xu, Chenchu and others},<br>
+	  journal={IEEE journal of biomedical and health informatics},<br>
+	  volume={22},<br>
+	  number={5},<br>
+	  pages={1571--1582},<br>
+	  year={2017},<br>
+	  publisher={IEEE}<br>
+	}<br>
 </ul>
