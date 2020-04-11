@@ -7,8 +7,8 @@ This code provides a robust, accurate and efficient method based on snakes (acti
 <h2>Code Usage: </h2>
 <h3>Inputs:  </h3>
 <ul>
-    <li>an ultrasound sequence
-    <li>a manual segmentation of the first frame
+    <li>an ultrasound sequence (e.g., the .bmp files names as 000001~000100 in the .\data\1 folder)
+    <li>a manual segmentation of the first frame (e.g., the LI.mat and MA.mat files)
 </ul>
 <h3>Outputs:  </h3>
 <ul>
