@@ -21,8 +21,7 @@ Simply download the files, make sure the path to the sequence is correct, and ru
 <li>Almost all comments in the codes are written in Chinese now. If I have time in the future, the comments might be translated into English. However, to be frank, the translation may be suspended indefinitely since I get more and more work to do. Fortunately, you can find someone who knows Chinese almost everywhere around the world. :D<br>
 <li>To make the codes applicable to sequences of more morphologies and dynamics, I have edited the codes after the paper is published. Thus, you may find some details in the codes that are different from the paper. However, the idea is the same, i.e, the external energy matrix of the snake is modified based on the grayscale and derivatives.<br>
 <li>A MATLAB program for automatically obtaining the segmentation of the first frame will be made on-line soon, which can replace the manual segmented IM borders for the first frame.
-<li>All questions and debuggings are welcome! If you find the code useful, please kindly cite my paper (BibTeX citations are as follows).
-<style="padding-left: 140px;>
+<li>All questions and debuggings are welcome! If you find the code useful, please kindly cite my paper (BibTeX citations are as follows).<br>
 	@article{zhao2017robust,
 	  title={Robust segmentation of intima--media borders with different morphologies and dynamics during the cardiac cycle},
 	  author={Zhao, Shen and Gao, Zhifan and Zhang, Heye and Xie, Yaoqin and Luo, Jianwen and Ghista, Dhanjoo and Wei, Zhanghong and Bi, Xiaojun and Xiong, Huahua and Xu, Chenchu and others},
