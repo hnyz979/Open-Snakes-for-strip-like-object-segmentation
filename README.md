@@ -18,11 +18,10 @@ This code provides a robust, accurate and efficient method based on snakes (acti
 Simply download the files, make sure the path to the sequence is correct, and run the "main_snake.m" file in folder "sequence_segmentation_using_manual_initial". <br>
 <h3>Principles, advantages and disadvantages:  </h3>
 <ul>
-<li> This code leverages the principle that the grayscale and derivative of an arbitrary point on the intima media borders do not change much during the cardiac cycle. This fact is used to modify the external image energy matrix, which sequently the forces driving the snake to move to appropriate locations. 
-Open snake is achieved by simply eliminating the effects of internal energy of the snake and implementing a "derivative constant" boundary conditions to keep the first/last few points of the snake move reasonably.
+<li> This code leverages the principle that the grayscale and derivative of an arbitrary point on the intima-media borders do not change much during the cardiac cycle. This fact is used to modify the external image energy matrix, which sequentially provides forces driving the snake to move to appropriate locations. <br>
+Open snake is achieved by simply eliminating the effects of internal energy of the snake and implementing a "derivative constant" boundary conditions to keep the first/last few points of the snake move reasonably.<br>
 <li>The advantages of this code is: <br>
-(1) The code has been evaluated using large numbers of sequences and shows high robustness to ultrasound sequences with noises, large movements between frames, different IM appearances, and plagues.<br>
-(2) We have a ralatively in-depth understanding of the principles of the snake algorithm when writing the code, so we may be able to share our understandings with others that are interested.<br>
+The code has been evaluated using large numbers of sequences and shows high robustness to ultrasound sequences with noises, large movements between frames, different IM appearances, and plagues.<br>
 <li>The disadvantages of this code is: <br>
 It was implemented 4 years ago, and the snake parameters required a lot of manual experience. <br>
 <h3>Other Notes:  </h3>
@@ -30,7 +29,7 @@ It was implemented 4 years ago, and the snake parameters required a lot of manua
 <li>Almost all comments in the codes are written in Chinese now. If I have time in the future, the comments might be translated into English. However, to be frank, the translation may be suspended indefinitely since I get more and more work to do. Fortunately, you can find someone who knows Chinese almost everywhere around the world. :D<br>
 <li>To make the codes applicable to sequences of more morphologies and dynamics, I have edited the codes after the paper is published. Thus, you may find some details in the codes that are different from the paper. However, the idea is the same, i.e, the external energy matrix of the snake is modified based on the grayscale and derivatives.<br>
 <li>A MATLAB program for automatically obtaining the segmentation of the first frame will be made on-line soon, which can replace the manual segmented IM borders for the first frame.
-<li>All questions and debuggings are welcome! If you find the code useful, please kindly cite my paper (BibTeX citations are as follows).<br>
+<li>All questions and debugging are welcome! If you find the code useful, please kindly cite my paper (BibTeX citations are as follows).<br>
 	@article{zhao2017robust,<br>
 	  title={Robust segmentation of intima--media borders with different morphologies and dynamics during the cardiac cycle},<br>
 	  author={Zhao, Shen and Gao, Zhifan and Zhang, Heye and Xie, Yaoqin and Luo, Jianwen and Ghista, Dhanjoo and Wei, Zhanghong and Bi, Xiaojun and Xiong, Huahua and Xu, Chenchu and others},<br>
